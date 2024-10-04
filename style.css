@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+.container{
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    background-color: white;
+    position: relative;
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: auto;
+    height: auto;
+    padding-left: 346px;
+    padding-top: 143px;
+
+}
+.satauri{
+    display: flex;
+    gap: 16px;
+    padding-left: 10px;
+}
+.heading{
+    color: #212121;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 166.5%; 
+}
+.paragraph{
+    color: #949494;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 166.5%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.fifqi{
+    color:#EB3800 ;
+}
+.box{
+    width: 432.171px;
+    height: 60px;
+    border: 1px solid #949494;
+}
+.box::placeholder{
+    color: #949494;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 166.5%;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+}
+.pass{
+    background-image: url(./images/akar-icons_eye-closed.png);
+    background-repeat: no-repeat;
+    background-position-y:center ;
+    background-position-x: 390px;
+}
+.button{
+    display: flex;
+    width: 433px;
+    padding: 18px 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #4443FF;
+    box-shadow: 9px 9px 10px 0px rgba(114, 113, 255, 0.25);
+    border: none;
+    margin-top: 20px;
+}
+.p_b{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 166.5%;
+
+}
+.text{
+    color: #212121;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.5%;
+}
+.google{
+    display: flex;
+    width: 433px;
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 8px;
+    border: 1px solid #949494;
+    background: #FFF;
+}
+.google_text{
+    color: #4443FF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 166.5%;
+    text-transform: capitalize;
+}
+.sign{
+    color: #949494;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 166.5%; 
+    padding-left: 70px;
+}
+.login{
+    color: #7271FF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 166.5%;
+    text-decoration: underline;
+}
